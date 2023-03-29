@@ -7,7 +7,7 @@ pipeline{
       }
     
     steps {
-    echo "my main branch"
+    sudo cp -r * /var/www/html/main
     }
     
     }
