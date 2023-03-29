@@ -7,7 +7,7 @@ pipeline{
       }
     
     steps {
-    echo "my master branch"
+    sh 'sudo cp -r * /var/www/html/'
     }
     
     }
