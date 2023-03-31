@@ -3,7 +3,7 @@ pipeline{
   stages{
     stage('Build'){
     agent {
-    label "MAVEN"
+    label "Firstnode"
       }
     
     steps {
