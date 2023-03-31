@@ -7,7 +7,7 @@ pipeline{
       }
     
     steps {
-    sh 'sudo cp -r * /var/www/html/'
+    sh 'sudo cp -r * /var/www/html/main'
     }
     
     }
