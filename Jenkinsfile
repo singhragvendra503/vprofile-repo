@@ -7,7 +7,11 @@ pipeline{
       }
     
     steps {
+<<<<<<< HEAD
     sh 'sudo cp -r * /var/www/html'
+=======
+    sh 'sudo cp -r * /var/www/html/main'
+>>>>>>> main
     }
     
     }
